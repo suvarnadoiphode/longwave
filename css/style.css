@@ -1,0 +1,218 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    /* border: 1px solid red */
+}
+
+html{
+    font-size:62.5%;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.my-navbar{
+    background-color:transparent;
+    border-color:transparent;
+    border-radius:0;
+    margin-top:10px;
+}
+.my-navbar #bs-example-navbar-collapse-1 .navbar-right .active a{
+    color:#88d5c2;
+    background-color: transparent;
+
+}
+.my-navbar #bs-example-navbar-collapse-1 .navbar-right li a:hover{
+    border-bottom:2px solid #88d5c2;
+    color:#000;
+}
+.my-navbar #bs-example-navbar-collapse-1 .navbar-right .active a:hover{
+    color:#88d5c2;
+}
+.my-navbar #bs-example-navbar-collapse-1 .navbar-right li a{
+    padding:27px 29px;
+    text-transform: uppercase;
+    font-weight:900;
+}
+.navbar-brand img{
+    width:250px;
+}
+.section-info{
+    background-color: #f9f9f9;
+    padding:4.3rem 0;
+}
+.para{
+    font-size:3rem;
+    font-weight:300;
+    color:#5a5a5a;
+}
+.section-info .para .info-itallic{
+    font-style: italic;
+}
+.section-info .para .info-bold{
+    font-weight:700;
+}
+.overh{
+    overflow: hidden;
+}
+.heading-secondary{
+    color:#88d5c2;
+    text-transform:uppercase;
+    font-size:1.8rem;
+    font-weight:900;
+    float:left;
+}
+.my-btn{
+    float:right;
+    font-size:1rem;
+    text-transform:uppercase;
+    font-weight:900;
+    background-color:#ebebeb;
+    border-radius: 0;
+    border-style: none;
+    /* padding:1.7rem 1.3rem; */
+    margin-top:20px;
+}
+.bg-gray{
+   background-color:#e1e1e1;
+    height:20rem;
+    margin-bottom:1rem;
+}.custom-padding
+{
+    padding-right:0.2rem;
+    padding-left:0.2rem;
+    
+}
+.row .custom-padding:first-child{
+    padding-left:1.5rem;
+}
+.row .custom-padding:last-child{
+    padding-right:1.5rem;
+}
+.heading-padding
+{
+    padding-bottom: 3.5rem;
+}
+.thumbnail-border
+{
+    border:1px solid #e2e2e2;
+    padding:0.4rem;
+}
+.thumbnail-border .bg-gray
+{
+    height:9.3rem;
+    margin:0;
+}
+.journal-content h3
+{
+    font-size:1.4rem;
+    font-weight:900;
+    color:#707070;
+    margin:0;
+}
+.journal-content p
+{
+    font-size:1.2rem;
+    font-weight:400;
+    color:#707070;
+    padding:1.8rem 0 1.6rem 0;
+    width:50%;
+    
+}
+.journal-content .journal-btn
+{
+    font-size:1rem;
+    color:#88d5c2;
+    font-weight:400;
+    padding-top:0;
+}
+.section-contact{
+    background-color: #444;
+    padding:5rem 0;
+}
+.section-contact .heading-secondary{
+    font-size:1.6rem;
+    float:none;
+}
+.section-contact p{
+    font-size:1.4rem;
+    color:#d9d9d9;
+}
+.section-contact i{
+    color:#88d5c2;
+}
+.section-contact .address{
+    font-size:1.3rem;
+    width:55%;
+}
+.section-footer{
+    background-color: #3d3d3d;
+    color:#d9d9d9;
+    padding:3rem 0;
+    font-size:1.2rem;
+}
+@media (max-width:992px){
+    .navbar-brand img{
+        width:200px;
+        margin-top:-4px;
+    }
+    .custom-padding
+    {
+        padding-right: 15px;
+      padding-left:15px;
+    }
+   
+       
+}
+@media (max-width:568px){
+    .navbar-brand img{
+        width:150px;
+    }
+    
+    .navbar-inverse .navbar-toggle .icon-bar {
+        background-color: #000;
+    } 
+    .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:active {
+        background-color: #fff;
+    }
+    .my-navbar #bs-example-navbar-collapse-1 .navbar-right li a {
+        
+        text-align: center;
+    }
+    .heading-padding {
+        padding-bottom: 1.5rem;
+    }
+ .section-info{
+        padding:2.3rem 0;
+    }
+    .section-info .para{
+       font-size:2rem;
+    }
+    .section-portfolio .section-journal{
+        font-size:1.4rem;
+    }
+    
+    .custom-padding{
+      padding-right: 1.5rem;
+      padding-left:1.5rem;
+   
+    }
+    .section-journal{
+    
+        text-align: center;
+    }
+    .journal-content p{
+       width:100%;
+       font-size: 1.4rem;
+       /* padding:0.5rem; */
+    }
+    .section-contact .address{
+        font-size: 1.7rem;
+    }
+    .section-contact p{
+        font-size:1.7rem;
+    }
+    .section-contact .heading-secondary{
+        padding-bottom: 10px;
+    }
+}
